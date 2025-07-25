@@ -13,7 +13,7 @@
 </ul>
 <h3>APIs and Services Used:</h3>
 <ol>
-  <li>1. 📈 Alpha Vantage API
+  <li> 📈 Alpha Vantage API
     <ul>
       <li><strong>Purpose:</strong> To get daily stock price data.</li>
       <li><strong>Endpoint:<strong></strong>
@@ -22,7 +22,7 @@
       <li><strong>Documentation:</strong> <a href="https://newsapi.org/docs/endpoints/everything" target="_blank">View Docs</a></li>
     </ul>
   </li>
-  <li>2. 📰 News API
+  <li> 📰 News API
     <ul>
       <li><strong>Purpose:</strong> To fetch recent news articles related to a company.</li>
       <li><strong>Endpoint:</strong>
@@ -31,7 +31,7 @@
       <li><strong>Documentation:</strong> <a href="https://newsapi.org/docs/endpoints/everything" target="_blank">View Docs</a></li>
     </ul>
   </li>
-  <li>3. 📱 Twilio SMS API
+  <li> 📱 Twilio SMS API
     <ul>
       <li><strong>Purpose:</strong> To send SMS alerts containing stock info and news headlines.</li>
       <li><strong>Signup:</strong> <a href="https://www.twilio.com/try-twilio" target="_blank">Create Free Account</a></li>
