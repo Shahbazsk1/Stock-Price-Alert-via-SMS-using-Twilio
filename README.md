@@ -38,4 +38,37 @@
       <li><strong>SMS Documentation:</strong> <a href="https://www.twilio.com/docs/sms/send-messages" target="_blank">View Docs</a></li>
     </ul>
   </li>
+</ol><br>
+<h3>Twilio Setup Guide (for SMS Sending)</h3>
+<p><strong>Step 1: Create a Twilio Account</strong></p>
+<ol>
+  <li>Go to <a href="https://www.twilio.com/" target="_blank">https://www.twilio.com/</a></li>
+  <li>Click on Sign Up (if you don't have an account) or Log In</li>
+  <li>Verify your email and phone number.</li>
 </ol>
+<p><strong>📱 Step 2: Get a Twilio Phone Number</strong></strong></p>
+<ol>
+  <li>Go to your <a href="https://console.twilio.com/" target="_blank">Twilio Console Dashboard</a></li>
+  <li>Click on Get a Twilio Phone Number</li>
+  <li>Choose a number with SMS capability</li>
+  <li>Note down the phone number — you'll use this as the from_ number in your code.</li>
+</ol>
+<p><strong>🔐 Step 3: Get Twilio Account SID and Auth Token</strong></p>
+<ol>
+  <li>From the Dashboard, copy the following:
+    <ul>
+      <li><strong>Account SID →</strong> used for authentication</li>
+      <li><strong>Auth Token →</strong> keep this private</li>
+    </ul>
+  </li>
+  <li>You’ll use these in your code:</li><br>
+  <p>account_sid = "YOUR_TWILIO_ACCOUNT_SID"<br>
+    auth_token = "YOUR_TWILIO_AUTH_TOKEN"</p>
+</ol>
+<h3>💬 Step 4: Verify Recipient Phone Number (for Trial Account)</h3>
+<p>If you're using a <strong>free trial account</strong>, Twilio <strong>only allows SMS to verified phone numbers:</strong></p>
+<ol>
+   <li>Go to: <a href="https://console.twilio.com/us1/verified-caller-ids/phone-numbers" target="_blank">Verified Caller IDs</a>
+   <li>Click <strong>Add a New Verified Number</strong></li>
+   <li>Enter your personal phone number and verify it via OTP.</li>
+</ol><br>
